@@ -1,0 +1,11 @@
+* README
+  GNU/Emacs configuration.
+* IMPORTANT: Usage/Installation
+  This project depends on "emacs_packages".
+
+  Please download this repository using
+
+  git clone <origin> --recursive
+
+  "--recursive" is the important part. If you don't use this flag you
+  have to download all other dependencies manually.

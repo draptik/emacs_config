@@ -1,0 +1,9 @@
+# Can ignore specific files
+.DS_Store
+.emacs.desktop
+
+# Use wildcards as well
+*~
+*.swp
+
+
