@@ -1,0 +1,3 @@
+[submodule "emacs_packages"]
+	path = emacs_packages
+	url = git@github.com:draptik/emacs_packages.git
