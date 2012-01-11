@@ -9,3 +9,13 @@
 
   "--recursive" is the important part. If you don't use this flag you
   have to download all other dependencies manually.
+
+* Updating Submodules after initial installation
+
+  http://stackoverflow.com/questions/1030169/git-easy-way-pull-latest-of-all-submodules
+  
+  git submodule foreach --recursive git pull
+
+  git submodule update --recursive
+
+  git submodule foreach --recursive git submodule update --init 
